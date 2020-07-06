@@ -1,4 +1,5 @@
 import rhinoscriptsyntax as rs
+#delete empty layers(simple clean up code)
 
 count = rs.LayerCount()
 layerNames = rs.LayerNames()
