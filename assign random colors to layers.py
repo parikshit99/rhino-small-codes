@@ -1,6 +1,7 @@
 import rhinoscriptsyntax as rs
 from System.Drawing import Color
 import random
+#assign different materials to layers and change layer colors to correspond with it for export to lumion
 
 def randomcolor():
     red = int(255*random.random())
